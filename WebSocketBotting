@@ -1366,7 +1366,6 @@ class CONNECT {
     skin: `${Math.floor(Math.random() * skins.length)}`
   });
 
-  // Trigger the verify button click after the bot spawns
   let whereverifybutton = document.querySelector("#altcha_checkbox");
   
   function clicktheverify() {
@@ -1375,7 +1374,6 @@ class CONNECT {
     }
   }
 
-  // Call the function to click the verify button
   clicktheverify();
 };
     this.distance = function (a, b) {
